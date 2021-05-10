@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IP_DotAdd", "IP_DotAdd\IP_DotAdd.pyproj", "{2DDE8420-8254-4414-8A85-1A1A763882B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDE8420-8254-4414-8A85-1A1A763882B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDE8420-8254-4414-8A85-1A1A763882B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F602F6A6-7A67-467B-AAE8-03AF37A55F60}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+﻿  Main.cpp
+D:\Uit\HK3 2020-2021\PTTKTT\BubbleSortC\BubbleSortC\Main.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Uit\HK3 2020-2021\PTTKTT\BubbleSortC\BubbleSortC\Main.cpp(42,52): warning C4244: '*=': conversion from 'double' to '__int64', possible loss of data
+D:\Uit\HK3 2020-2021\PTTKTT\BubbleSortC\BubbleSortC\Main.cpp(48,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  BubbleSortC.vcxproj -> D:\Uit\HK3 2020-2021\PTTKTT\BubbleSortC\Debug\BubbleSortC.exe

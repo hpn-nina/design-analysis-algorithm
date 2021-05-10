@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Parenthesis_Print", "Parenthesis_Print\Parenthesis_Print.pyproj", "{BD87CEE1-398C-43E8-8B85-A336C0A7FC3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD87CEE1-398C-43E8-8B85-A336C0A7FC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD87CEE1-398C-43E8-8B85-A336C0A7FC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA0F225C-72FD-4734-90FA-DE08454C4D87}
+	EndGlobalSection
+EndGlobal
