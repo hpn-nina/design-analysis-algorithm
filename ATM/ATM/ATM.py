@@ -1,23 +1,19 @@
+C = (50, 20, 10, 5, 2)
+def Fbottom(X):
+    memmoi = (X+51) * [0]
+    for i in range(2,X+1):
+        if i in C:
+            memmoi[i] = 1
+        else:
+            B = [memmoi[i-x] for x in C]
+            B = [j for j in B if j > 0]
+            if len(B) == 0:
+                memmoi[i] = 0
+            else:
+                memmoi[i] = 1+ min(B)
+        pass
+    return memmoi[X]
 
-def ATM(money):
-    count=0
-    min_to=0
-    tam = int(money/10000)
-    t500=0
-    t200=0
-    t100=0
-    t50=0
-    t20=0
-    for a in range (0, tam//50 +1):
-        for b in range (0,(tam - 50*a)// 20 + 1):
-            for c in range (0, (tam - 50*a - 20*b)// 10 + 1):
-                for d in range (0, (tam - 50*a - 20*b - 10*c) // 5 + 1):
-                    for e in range (0, (tam - 50*a - 20*b - 10*c - 5*d) // 2 + 1):
-                        if a*50 + b*20 + c*10 + d*5 + e*2 == tam:
-                            count+=1
-                            min_to = a + b + c + d + e
-    return count,min_to
-            
-money=int(input())
-tam=ATM(money)
-print(tam[0],tam[1])
+X = int(input())
+X = X//10000
+print(Fbottom(X))
